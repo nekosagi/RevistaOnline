@@ -1,0 +1,23 @@
+.nav {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+
+    &__lista  {
+        list-style: none;
+        float: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__element, &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 5px;
+    }
+    
+    &__input {
+        border-radius: 30px;
+    }
+}
+
